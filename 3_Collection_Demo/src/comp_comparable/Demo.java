@@ -5,7 +5,7 @@ import java.util.*;
 public class Demo {
     public static void main(String[] args) {
         List<Product> productList = new ArrayList<>();
-        productList.add(new Product(201, "Laptop", 75000));
+        productList.add(new Product(201, "Zaptop", 75000));
         productList.add(new Product(202, "Phone", 50000));
         productList.add(new Product(203, "Tablet", 30000));
 

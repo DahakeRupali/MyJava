@@ -12,7 +12,8 @@ public class Demo_Main {
 
         // Step 2: Convert Map to List of EmployeeEntry (empId and name)
         List<Employee> empList = new ArrayList<>();
-        for (Map.Entry<Integer, String> entry : empMap.entrySet()) {
+        for (Map.Entry<Integer, String> entry : empMap.entrySet()) 
+        {
             empList.add(new Employee(entry.getKey(), entry.getValue()));
         }
 
