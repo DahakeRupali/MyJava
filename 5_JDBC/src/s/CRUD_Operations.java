@@ -20,7 +20,7 @@ public class CRUD_Operations {
 			
 						
 			//Insert Record in Table
-			 String inQuery = "INSERT INTO Stud (ID, Name) VALUES (121, 'John Doe')";
+			 String inQuery = "INSERT INTO Stud (Name) VALUES ('Jimmy')";
 	            int insertResult = st.executeUpdate(inQuery);
 	            System.out.println("Rows inserted: " + insertResult);
 	            
@@ -30,7 +30,7 @@ public class CRUD_Operations {
 	            System.out.println("Rows updated: " + updateResult);
 
 	            // --- Delete Operation ---
-	            String deleteQuery = "DELETE FROM Stud WHERE ID = 2";
+	            String deleteQuery = "DELETE FROM Stud WHERE ID = 6";
 	            int deleteResult = st.executeUpdate(deleteQuery);
 	            System.out.println("Rows deleted: " + deleteResult);
 	            

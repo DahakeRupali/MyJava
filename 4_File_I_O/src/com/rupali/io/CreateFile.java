@@ -9,6 +9,8 @@ public class CreateFile {
     public static void main(String[] args) {
         // Specify the file path where you want to create the file
         File file = new File("F://FileProgram//example.txt");
+   
+        
 
         try {
             // Create the file if it doesn't exist

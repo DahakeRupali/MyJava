@@ -18,8 +18,8 @@ public class OutputStreamDemo {
             output.write(message1);
 
             // 3. write(byte[] b, int offset, int length): Write part of an array
-            byte[] message2 = "WelcomeToJava".getBytes();  // 13 bytes
-            output.write(message2, 0, 7);  // Writes "Welcome"
+            byte[] message2 = "WelcomeToJava  and SQL Session ".getBytes();  // 13 bytes
+            output.write(message2, 0, 27);  // Writes "Welcome"
 
             // 4. flush(): Forces any buffered data to be written
             output.flush();
